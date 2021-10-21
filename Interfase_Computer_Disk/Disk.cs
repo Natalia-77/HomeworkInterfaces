@@ -4,6 +4,10 @@ namespace Interfase_Computer_Disk
 {
     class Disk : IDisk
     {
+        private string _name;
+
+        public string Name { get => _name; set => _name = value; }       
+
         private string _memory;
 
         public string Memory { get => _memory; set => _memory = value; }
@@ -20,6 +24,11 @@ namespace Interfase_Computer_Disk
         {
             Memory = memory;
             MemSize = memSize;
+        }
+
+        public Disk(string name)
+        {
+            Name = name;
         }
 
         public string GetName()

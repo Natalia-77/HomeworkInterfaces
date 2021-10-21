@@ -34,16 +34,33 @@ namespace Interfase_Computer_Disk
         public void AddDisk(int index)
         {
             Console.WriteLine($"Now you create Disk with index{index}");
-            Disk disk = new();
-            disk.Memory = "4.7Gb";
-            disk.MemSize = 4;
+            disks = new[]
+            {
+                new Flash("Flash"),
+                new Flash("Flash no.2")                
+            };   
+                      
         }
 
-        public bool CheckDisk(string device)
+        public bool CheckDisk(Flash flash)
         {
-          
-            return true;
+           return flash.HasDisk? true : false;
+            
         }
+        public string InsertReject(Flash flash) => flash.HasDisk ? "Can't reject" : "Reject is possible";
+
+        public void ReadInfo()
+        {
+            Console.WriteLine($"Computer has disk{_countDisk} and {_countPrintDevice} devices");
+
+            foreach (var item in disks)
+            {
+                Console.WriteLine($"{item.Name}");
+            }
+        }
+
+
+
 
 
     }

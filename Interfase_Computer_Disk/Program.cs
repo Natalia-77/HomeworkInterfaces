@@ -6,7 +6,13 @@ namespace Interfase_Computer_Disk
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+            
+            //Computer computer = new Computer(2, 4);
+            //computer.AddDisk(3);
+            //computer.ReadInfo();
+
+
+
 
         }
     }

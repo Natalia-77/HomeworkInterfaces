@@ -10,7 +10,10 @@ namespace Interfase_Computer_Disk
     {
         bool _hasDisk;
         public bool HasDisk { get => _hasDisk; }
-
+        public DVD()
+        {
+            _hasDisk=true;
+        }
 
         public void Insert()
         {

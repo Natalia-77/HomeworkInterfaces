@@ -7,7 +7,10 @@ namespace Interfase_Computer_Disk
         bool _hasDisk;
         public bool HasDisk { get => _hasDisk; }
 
-      
+        public Flash(string name):base( name)
+        {
+
+        }
         public void Insert()
         {
             Console.WriteLine("Insert from class Flash");
