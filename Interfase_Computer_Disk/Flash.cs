@@ -7,6 +7,11 @@ namespace Interfase_Computer_Disk
         bool _hasDisk;
         public bool HasDisk { get => _hasDisk; }
 
+        public Flash()
+        {
+
+        }
+
         public Flash(string name):base( name)
         {
 
