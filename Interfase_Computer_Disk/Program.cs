@@ -21,6 +21,11 @@ namespace Interfase_Computer_Disk
             IRemoveableDisk removeable = flash;
             removeable.Reject();
 
+            Printer printer = new Printer();
+
+            IPrintInformation printInformation = printer;
+            printInformation.Print(" some text ");
+
 
 
         }
