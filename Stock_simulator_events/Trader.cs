@@ -41,6 +41,11 @@ namespace Stock_simulator_events
 
         }
 
+        public void TraderInfo()
+        {
+            Console.WriteLine($"Trader {Name} has {Sum} money");
+        }
+
        
     }
 

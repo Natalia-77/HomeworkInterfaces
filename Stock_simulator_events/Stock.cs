@@ -14,13 +14,17 @@ namespace Stock_simulator_events
         public event StockDelegate Sell;
         public event StockDelegate TakeMoney;
 
-        public string NameCurrency { get; set; }
+        public string Name { get; set; }
         public int Course { get; set; }
+
+        public string Currency { get; }
 
         public Stock(string name,int course)
         {
-            NameCurrency = name;
+            Name = name;
             Course = course;
+            Currency = "USD";
+
         }
 
         public void StartStockWork(int cur_value)
@@ -37,6 +41,11 @@ namespace Stock_simulator_events
             {
                 TakeMoney?.Invoke(cur_value);
             }
+        }
+
+        public void StockInfo()
+        {
+            Console.WriteLine($"{Name}-->{Currency} current course: {Course}");
         }
     }
 }
