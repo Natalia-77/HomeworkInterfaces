@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfase_Computer_Disk", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stock_simulator_events", "Stock_simulator_events\Stock_simulator_events.csproj", "{F7643675-34E7-4177-A782-1B72310203F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListExample", "ArrayList\ArrayListExample.csproj", "{A3F974C1-EF2E-4BA8-9317-AEB61621A939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayListExample", "ArrayList\ArrayListExample.csproj", "{A3F974C1-EF2E-4BA8-9317-AEB61621A939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListString", "ListString\ListString.csproj", "{1A72F0B4-E6E5-4180-A054-01FF1E2EEFDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListString", "ListString\ListString.csproj", "{1A72F0B4-E6E5-4180-A054-01FF1E2EEFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi", "Hanoi\Hanoi.csproj", "{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1A72F0B4-E6E5-4180-A054-01FF1E2EEFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A72F0B4-E6E5-4180-A054-01FF1E2EEFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A72F0B4-E6E5-4180-A054-01FF1E2EEFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
