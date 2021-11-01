@@ -18,9 +18,6 @@ namespace Hanoi
             State();
             ChangePos(4, stack1, stack3, stack2);
 
-
-
-
         }
 
         public static void ChangePos(int disks,Stack start,Stack end,Stack temp)
@@ -43,6 +40,7 @@ namespace Hanoi
                 Console.Write(item+" ");
             }
             Console.WriteLine();
+           
 
             Console.Write("2:");
             foreach (var item in stack2)
@@ -50,13 +48,14 @@ namespace Hanoi
                 Console.Write(item + " ");
             }
             Console.WriteLine();
-
+          
             Console.Write("3:");
             foreach (var item in stack3)
             {
                 Console.Write(item + " ");
             }
             Console.WriteLine();
+            Console.WriteLine("-------------------");
         }
     }
 }

@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayListExample", "ArrayLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListString", "ListString\ListString.csproj", "{1A72F0B4-E6E5-4180-A054-01FF1E2EEFDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi", "Hanoi\Hanoi.csproj", "{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanoi", "Hanoi\Hanoi.csproj", "{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
