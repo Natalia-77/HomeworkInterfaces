@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListString", "ListString\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanoi", "Hanoi\Hanoi.csproj", "{88A03D87-9C16-4B16-8D3C-B6F4F3E33582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport", "Airport\Airport.csproj", "{0A98B6D2-AD05-4F9E-ADDB-552914C0FBF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9A3921-8B01-4393-8BFE-3BDB2765D53C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A98B6D2-AD05-4F9E-ADDB-552914C0FBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A98B6D2-AD05-4F9E-ADDB-552914C0FBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A98B6D2-AD05-4F9E-ADDB-552914C0FBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A98B6D2-AD05-4F9E-ADDB-552914C0FBF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
