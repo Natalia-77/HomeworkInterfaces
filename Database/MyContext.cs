@@ -19,6 +19,8 @@ namespace Database
             optionsBuilder.UseNpgsql("Server=91.238.103.41;Port=5432;Database=dbusertest;User Id=nata;Password=$5$BG)K$t!Ube}xk;");
         }
 
+       
+
 
     }
 }
