@@ -83,8 +83,7 @@ namespace Airport.Data
             builder.Entity<Flights>().Property(u => u.DepartCity)
                                    .IsRequired()
                                    .HasMaxLength(50);
-            //builder.Entity<Flights>().Property(u => u.DepartDate)
-            //                        .HasColumnType("datetime2");
+            
                                     
                                    
         }
