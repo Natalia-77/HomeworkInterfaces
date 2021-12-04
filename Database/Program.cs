@@ -71,6 +71,7 @@ namespace Database
             //var res= statistica.AllArttists();
             //var res = statistica.TrackToAlbumName();
             var res = statistica.TrackToTrackName();
+
             foreach (var item in res)
             {
                 Console.WriteLine($"--{item.Name}--");
